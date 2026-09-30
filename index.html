@@ -44,6 +44,7 @@ nav{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px 
 /* ADMIN BAR */
 .admin-bar{background:var(--gold);padding:7px 5vw;display:flex;align-items:center;gap:14px}
 .admin-bar p{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--ink);font-weight:600}
+
 .tog{position:relative;width:38px;height:20px;display:inline-block}
 .tog input{opacity:0;width:0;height:0}
 .tog-sl{position:absolute;cursor:pointer;inset:0;background:rgba(0,0,0,0.2);border-radius:20px;transition:.3s}
@@ -763,7 +764,7 @@ var curCat = 'all';
 var curType = 'all';
 var curSearch = '';
 
-var SPORTSWEAR_ARTS = ['8026', '8022-C', '8022-D', '8024', '8011-B', '4603-A', '4607', '4613', '4632'];
+var SPORTSWEAR_ARTS = ['8026', '8022-C', '8022-D', '8024', '8011-B', '4603-A', '4607', '4613', '4632', '7020', '7021', '7022', '7023', '4030', '4031', '8524', '8530-A', '4650/4660', '8522-B', '8535-A'];
 
 function classifyType(art) {
   if (SPORTSWEAR_ARTS.indexOf(art) !== -1) return 'sportswear';
